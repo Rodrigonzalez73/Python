@@ -2,7 +2,7 @@ from turtle import *
 import turtle as t 
 
 Screen = t.Screen()
-Screen.setworldcoordinates(-350,-350,350,350)
+Screen.setworldcoordinates(-1050,-150,650,850)
 speed(0)
 bgcolor('white')
 color('red')
@@ -19,5 +19,5 @@ while True:
     if n==0 or n==60:
         p= not p 
     left(1)
-    forward(0.5)
+    forward(8.5)
 done()                
